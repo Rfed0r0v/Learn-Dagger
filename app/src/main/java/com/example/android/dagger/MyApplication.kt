@@ -20,6 +20,8 @@ import android.app.Application
 import com.example.android.dagger.storage.SharedPreferencesStorage
 import com.example.android.dagger.user.UserManager
 
+// start
+
 open class MyApplication : Application() {
 
     open val userManager by lazy {
